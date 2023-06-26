@@ -1,7 +1,6 @@
 import cv2
 import imutils
 
-
 def draw_color_mask(img, borders, color=(0, 0, 0)):
     h = img.shape[0]
     w = img.shape[1]
